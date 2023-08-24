@@ -1,0 +1,104 @@
+/* Kiểu dáng cho header */
+*{
+    text-decoration: none;
+    margin: 0;
+}
+header{
+    background-position-y: center;
+    background-size: cover;
+    background-image: url("358750708_1346329432962258_8035481226768785960_n.jpg");
+    height: 350px;
+}
+header h1 a{
+    background: linear-gradient(to right, #35f600, #27c3ee, #2a47ee, #00f6e6, #35f600);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+header h1 {
+    margin-top: 150px;
+    font-family: garamond;
+    font-size: 60px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+header div {
+    font-family: 'brush script MT';
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(to right, #35f600, #27c3ee, #2a47ee, #00f6e6, #35f600);
+    -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+     
+
+/* Kiểu dáng cho nav */
+nav {
+
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    display: inline;
+    vertical-align: middle;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    background-color: #E6E6FA;
+    width: 100%;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    border: solid rgb(131, 129, 129) 2px;
+}
+
+/* Kiểu dáng cho main */
+body {
+    background-color: #E6E6FA;
+    color: #000000;
+}
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin-bottom: 10px;
+
+}
+
+/* Kiểu dáng cho footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
